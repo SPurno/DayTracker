@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+	padding: 0;
+	margin:  0;
+	font-family: 'Roboto' , sans-serif;
+
+/*background: rgb(169,3,41); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 37%, rgba(109,0,25,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 37%,rgba(109,0,25,1) 100%);  Chrome10-25,Safari5.1-6 
+background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 37%,rgba(109,0,25,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+* {
+	box-sizing : border-box;
+}
+
+.wrapper {
+	display: flex;
+	justify-content : center;
+}
+.wrapper .days {
+	margin-top: 5rem;
+	width: 140px;
+	height: 160px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+14,7db9e8+100&1+1,0+100 */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 1%, rgba(30,87,153,0.87) 14%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 1%,rgba(30,87,153,0.87) 14%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 1%,rgba(30,87,153,0.87) 14%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+  	text-align: center;
+  	position: relative;
+}
+.wrapper .days h3{
+	color: #fff;
+	font-size: 2rem;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.wrapper .days p {
+	color: #330000;
+	text-shadow :1px 1px 1px rgba(0, 0, 0, 0.5) ;
+}
+.wrapper .days .popup {
+	width: 350px;
+	font-size: .9rem;
+	right: 0;
+	padding: 1rem;
+	color: #fff;
+	background-color: #202020;
+	position: absolute;
+	bottom: -60px;
+
+
+}
+.wrapper .days .popup:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: transparent 5px solid;
+  border-bottom: #202020 5px solid;
+  border-left: #202020 5px solid;
+  border-right: #202020 5px solid;
+}
+
+.wrapper .days:not(:last-child) {
+  border-right: 1px solid #ddd;
+}
+.wrapper .days:first-child .popup {
+  left: 0;
+  right: auto;
+}
+.wrapper .days:last-child .popup:before {
+  right: 0;
+  left: auto;
+}
+
+.today {
+  background-color: #fff !important;
+}
+.today h3 {
+  color: #b4a3a1 !important;
+}

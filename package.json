@@ -1,0 +1,25 @@
+{
+  "name": "daytracker",
+  "version": "1.0.0",
+  "description": "Simple JavaScript Daytracker tricks on html",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPurno/DayTracker.git"
+  },
+  "keywords": [
+    "Daytracker",
+    "day",
+    "tracker",
+    "js"
+  ],
+  "author": "Faruk Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SPurno/DayTracker/issues"
+  },
+  "homepage": "https://github.com/SPurno/DayTracker#readme"
+}
